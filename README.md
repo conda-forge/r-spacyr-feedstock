@@ -1,11 +1,11 @@
-About r-spacyr
-==============
+About r-spacyr-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spacyr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://spacyr.quanteda.io
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spacyr-feedstock/blob/main/LICENSE.txt)
 
 Summary: An R wrapper to the 'Python' 'spaCy' 'NLP' library, from <http://spacy.io>.
 
