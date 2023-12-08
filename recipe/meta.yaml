@@ -1,4 +1,4 @@
-{% set version = "1.2.1" %}
+{% set version = "1.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spacyr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spacyr/spacyr_{{ version }}.tar.gz
-  sha256: dc1a4de284fe33bf5d9ecb67b74dc0e61896923913f533f8b97be2a8f9634cac
+  sha256: c455d6e237df29516b8145904106979314358073930a16fb3814b00c2fea96fc
 
 build:
   merge_build_host: true  # [win]
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
