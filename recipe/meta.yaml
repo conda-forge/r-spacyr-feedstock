@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spacyr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spacyr/spacyr_{{ version }}.tar.gz
-  sha256: c455d6e237df29516b8145904106979314358073930a16fb3814b00c2fea96fc
+  sha256: 226e2569b82b3369c20e6803a6908f09380e268b4a9ce3986cce9c3860d0844d
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
